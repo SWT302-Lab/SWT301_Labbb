@@ -1,0 +1,71 @@
+/* list.css */
+
+/* Đặt kiểu cho body */
+body {
+    font-family: Arial, sans-serif; /* Font chữ */
+    background-color: #f8f9fa; /* Màu nền nhạt */
+    margin: 0; /* Xóa margin mặc định */
+    padding: 20px; /* Thêm padding cho body */
+}
+
+/* Đặt kiểu cho các liên kết */
+a {
+    color: #FF416C; /* Màu chữ cho liên kết */
+    text-decoration: none; /* Xóa gạch chân */
+}
+
+/* Đặt hiệu ứng hover cho các liên kết */
+a:hover {
+    text-decoration: underline; /* Gạch chân khi di chuột */
+}
+
+/* Đặt kiểu cho tiêu đề chính */
+h1 {
+    text-align: center; /* Căn giữa tiêu đề */
+    color: #FF416C; /* Màu chữ */
+    font-size: 36px; /* Kích thước chữ */
+}
+
+/* Đặt kiểu cho link-container */
+.link-container {
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: flex-end; /* Căn phải các liên kết */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-bottom: 20px; /* Khoảng cách dưới cho link-container */
+}
+
+/* Đặt kiểu cho tiêu đề phụ */
+h3 {
+    margin-left: 20px; /* Khoảng cách bên trái cho liên kết "Add new dish" */
+}
+
+/* Đặt kiểu cho bảng */
+table {
+    width: 100%; /* Chiếm 100% chiều rộng */
+    border-collapse: collapse; /* Xóa khoảng cách giữa các ô */
+}
+
+/* Đặt kiểu cho các ô trong bảng */
+th, td {
+    border: 1px solid #ddd; /* Đường viền cho các ô */
+    padding: 8px; /* Padding cho các ô */
+    text-align: center; /* Căn giữa nội dung trong ô */
+}
+
+/* Đặt kiểu cho tiêu đề của bảng */
+th {
+    background-color: #FF416C; /* Màu nền cho tiêu đề bảng */
+    color: white; /* Màu chữ cho tiêu đề bảng */
+}
+
+/* Đặt kiểu cho hàng trong bảng khi di chuột */
+tr:hover {
+    background-color: #f2f2f2; /* Màu nền khi di chuột qua hàng */
+}
+
+/* Đặt kiểu cho thông báo lỗi */
+div {
+    text-align: center; /* Căn giữa thông báo lỗi */
+    margin-top: 20px; /* Khoảng cách phía trên thông báo lỗi */
+    font-size: 18px; /* Kích thước chữ cho thông báo lỗi */
+}
