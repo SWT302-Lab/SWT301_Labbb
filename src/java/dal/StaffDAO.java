@@ -92,7 +92,7 @@ public class StaffDAO extends DBContext{
     }
 
     // Lấy tài khoản theo AccountID
-    private Account getAccountByAccountId(int accountId) {
+    public Account getAccountByAccountId(int accountId) {
         String sql = "SELECT * FROM Account WHERE AccountID = ?";
         try {
             PreparedStatement st = connection.prepareStatement(sql);
