@@ -1,0 +1,80 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 thg 10, 2024, 15:22:20
+    Author     : ADMIN
+*/
+
+body {
+    background-color: #212529;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.number-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.number-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #343a40;
+    color: white;
+    width: 150px; /* Increased size */
+    height: 150px; /* Increased size */
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    font-size: 2rem; /* Increased font size */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.number-box:hover {
+    background-color: #495057;
+}
+
+.dot {
+    width: 12px; /* Increased size */
+    height: 12px; /* Increased size */
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: pink;
+}
+/* cashiers.css */
+
+/* Phong cách cho nút Log Out */
+.btn-logout {
+    font-size: 20px; /* Kích thước chữ */
+    font-weight: bold; /* Chữ đậm */
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    border-radius: 5px; /* Bo góc */
+    text-align: center; /* Canh giữa */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+/* Hiệu ứng khi hover */
+.btn-logout:hover {
+    background-color: #dc3545; /* Màu nền khi hover */
+    color: white; /* Màu chữ khi hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+}
+
+/* Thêm margin cho nút */
+.mt-5 {
+    margin-top: 40px; /* Tăng khoảng cách phía trên */
+}

@@ -1,0 +1,128 @@
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212529;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Styling for the header */
+h1 {
+    background-color: #FF416C;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1::before {
+    content: "🛠️ "; /* Add an icon before the text */
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+/* Styling for logout button */
+a.nav-link {
+    font-size: 25px;
+    font-weight: 500;
+    color: #FF416C;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid #FF416C;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for logout link */
+a.nav-link:hover {
+    background-color: #FF416C;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Navbar list styling */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navbar items styling */
+.navbar ul li {
+    margin: 0 15px;
+}
+
+/* Navbar links */
+.navbar ul li a {
+    color: #FF416C;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #FF6347;
+    text-decoration: underline;
+}
+
+/* Card layout for each manager section */
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #FF416C;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}

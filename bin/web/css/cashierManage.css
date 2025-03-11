@@ -1,0 +1,73 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 24 thg 10, 2024, 13:11:20
+    Author     : ADMIN
+*/
+body {
+    background-color: #212529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+/* H2 Header */
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Card */
+.card {
+    background-color: #3b3e45;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #202225;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #444;
+}
+
+.card-footer {
+    background-color: #2d3436;
+    color: #28a745;
+}
+
+.table {
+    background-color: #3b3e45;
+    border-radius: 10px;
+}
+
+.table thead th {
+    background-color: #202225;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #444951;
+}
+
+.table td, .table th {
+    border-top: none;
+    color: #ffffff;
+}
+
+.btn-outline-primary {
+    color: #7289da;
+    border-color: #7289da;
+}
+
+.btn-outline-primary:hover {
+    background-color: #7289da;
+    color: #ffffff;
+}
+
+
