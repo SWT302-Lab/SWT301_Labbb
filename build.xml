@@ -5,7 +5,7 @@
 
     <description>Builds, tests, and runs the project prjProject.</description>
     
-    <property name="build.dir" value="bin/web/WEB-INF/classes/web/WEB-INF/classes"/>
+    <property name="build.dir" value="bin/web/WEB-INF/classes/web/WEB-INF/classes/web/WEB-INF/classes"/>
     <property name="src.dir" value="src"/>
     <property name="test.dir" value="bin/test/classes"/>
     <property name="report.dir" value="reports"/>

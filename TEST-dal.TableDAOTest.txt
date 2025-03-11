@@ -1,18 +1,18 @@
 Testsuite: dal.TableDAOTest
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.701 sec
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.734 sec
 ------------- Standard Output ---------------
 Deleted 1 row(s)
 ------------- ---------------- ---------------
 
-Testcase: testCheckIfTableOccupied_False took 0.871 sec
-Testcase: testDeleteTable_Success took 0.021 sec
-Testcase: testUpdateTable took 0.017 sec
-Testcase: testGetAllTable took 0.017 sec
-Testcase: testInsertTable took 0.015 sec
+Testcase: testCheckIfTableOccupied_False took 0.885 sec
+Testcase: testDeleteTable_Success took 0.015 sec
+Testcase: testUpdateTable took 0.016 sec
+Testcase: testGetAllTable took 0.032 sec
+Testcase: testInsertTable took 0.016 sec
 Testcase: testGetTableStatusById_Success took 0.016 sec
-Testcase: testCheckIfTableOccupied_True took 0.017 sec
-Testcase: testCheckIfTableOccupied_NotFound took 0.017 sec
-Testcase: testSetStatus took 0.014 sec
+Testcase: testCheckIfTableOccupied_True took 0.015 sec
+Testcase: testCheckIfTableOccupied_NotFound took 0.016 sec
+Testcase: testSetStatus took 0.016 sec
 Testcase: testFindTableById_Found took 0.016 sec
-Testcase: testGetTableStatusById_NotFound took 0.014 sec
-Testcase: testFindTableById_NotFound took 0.013 sec
+Testcase: testGetTableStatusById_NotFound took 0 sec
+Testcase: testFindTableById_NotFound took 0.016 sec
